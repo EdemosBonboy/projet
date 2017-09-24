@@ -2,4 +2,8 @@ language: ruby
 rvm:
   - 2.2
   - jruby
-  - rbx-2
+  - 2.0.0-p247
+ install: true
+ script: bundle exec rake build
+ deploy:
+  skip_cleanup: true

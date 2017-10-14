@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :towns
+
   resources :students
 
   get 'students/new'

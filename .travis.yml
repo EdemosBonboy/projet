@@ -8,3 +8,4 @@ deploy:
   app: projetlp
   on:
     repo: EdemosBonboy/projet
+    run: "rake db:migrate"

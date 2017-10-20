@@ -10,6 +10,7 @@ class TownsController < ApplicationController
   # GET /towns/1
   # GET /towns/1.json
   def show
+    @weather = @town.load_weather.currently
   end
 
   # GET /towns/new

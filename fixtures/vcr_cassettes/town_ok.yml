@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://nominatim.openstreetmap.org/search?format=json&limit=1&q=Belfort
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Nominatim Ruby Gem 0.0.6
+      Accept-language:
+      - en
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Sat, 02 Dec 2017 11:12:05 GMT
+      server:
+      - Apache/2.4.18 (Ubuntu)
+      access-control-allow-origin:
+      - "*"
+      access-control-allow-methods:
+      - OPTIONS,GET
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOiIxNzg4MDQwNDAiLCJsaWNlbmNlIjoiRGF0YSDCqSBP
+        cGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHA6XC9c
+        L3d3dy5vcGVuc3RyZWV0bWFwLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUi
+        OiJyZWxhdGlvbiIsIm9zbV9pZCI6Ijc1NjE4IiwiYm91bmRpbmdib3giOlsi
+        NDcuNjIwMzI1OSIsIjQ3LjY3MTMwNTciLCI2Ljc4NzIxNDMiLCI2Ljg5NDg3
+        MDciXSwibGF0IjoiNDcuNjM3OTU5OSIsImxvbiI6IjYuODYyODk0MiIsImRp
+        c3BsYXlfbmFtZSI6IkJlbGZvcnQsIFRlcnJpdG9pcmUtZGUtQmVsZm9ydCwg
+        Qm91cmdvZ25lLUZyYW5jaGUtQ29tdMOpLCBNZXRyb3BvbGl0YW4gRnJhbmNl
+        LCA5MDAwMCwgRnJhbmNlIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJh
+        ZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuMjU1NDExNjE5NDg4MTMs
+        Imljb24iOiJodHRwOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdc
+        L2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9ib3VuZGFyeV9hZG1pbmlzdHJhdGl2
+        ZS5wLjIwLnBuZyJ9XQ==
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 11:12:05 GMT
+recorded_with: VCR 3.0.3
